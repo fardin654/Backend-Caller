@@ -9,7 +9,7 @@ const Caller = () => {
     const callBackendServer = async () => {
         try {
             setLoading(true);
-            const response = await axios.get('/api/');
+            const response = await axios.get('https://chat-app-1-v1qz.onrender.com/');
             if (response.status === 200) {
                 console.log('Backend server is running:', response.data);
                 toast.success('Backend server is now active!');
