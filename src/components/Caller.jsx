@@ -51,7 +51,7 @@ const Caller = () => {
     const interval = setInterval(() => {
       callBackendServer();
       callChatServer();
-    }, 300000);
+    }, 240000);
 
     return () => clearInterval(interval); 
   }, []);
