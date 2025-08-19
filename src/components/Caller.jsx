@@ -37,7 +37,7 @@ const Caller = () => {
             <button
                 onClick={callBackendServer}
                 disabled={loading}
-                className="px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold shadow-lg hover:scale-105 transition-transform duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+                className="cursor-pointer px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold shadow-lg hover:scale-105 transition-transform duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
                 {loading ? 'Activating...' : 'Activate Backend Server'}
             </button>
